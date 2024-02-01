@@ -192,7 +192,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
 }
 
 .card_type_film {
@@ -215,12 +214,14 @@
     line-height: 1.2;
     text-decoration-line: underline;
     text-transform: uppercase;
+    z-index: 2;
 }
 
 .card__text {
     color: #FFF;
     font-size: 20px;
     line-height: 1.2;
+    z-index: 2;
 }
 
 .lots__look-more-link {
@@ -275,10 +276,6 @@
     padding: 178px 50px 88px 51px;
     display: flex;
     justify-content: space-between;
-}
-
-.footer__menu {
-    
 }
 
 .footer__menu-list {
